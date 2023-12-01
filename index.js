@@ -32,6 +32,7 @@ app.get('/', (req, res) =>
 );
 
 app.use('/user', require('./app/routes/user'));
+app.use('/dataset', require('./app/routes/dataset'));
 
 // production error handler
 // no stacktraces leaked to user
